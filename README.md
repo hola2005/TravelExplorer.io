@@ -1,2 +1,0 @@
-# TravelExplorer.io
-TravelExplorer
