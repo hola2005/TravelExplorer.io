@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Туристичний сайт - Головна</title>
+  </head>
+  <body>
+    <header>
+      <h1>Туристичний сайт</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="travel.html">Подорожі та тури</a></li>
+        <li><a href="tips.html">Поради та інформація для туристів</a></li>
+        <li><a href="contact.html">Контакти та зворотній зв’язок</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h2>Ласкаво просимо на головну сторінку</h2>
+      <p>
+        Це головна сторінка туристичного сайту. Тут ви можете знайти загальну
+        інформацію про наш сайт та послуги, які ми пропонуємо.
+      </p>
+      <h3>Наші послуги:</h3>
+      <ul>
+        <li>Організація подорожей та турів</li>
+        <li>Консультації та поради для туристів</li>
+        <li>Бронювання готелів та транспорту</li>
+      </ul>
+      <h3>Контакти:</h3>
+      <p><strong>Телефон:</strong> +380123456789</p>
+      <p><strong>Email:</strong> info@tourist-site.com</p>
+      <h3>Форма зворотнього зв’язку:</h3>
+      <form action="submit_form.php" method="post">
+        <label for="name">Ім’я:</label>
+        <input type="text" id="name" name="name" /><br /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" /><br /><br />
+        <label for="message">Повідомлення:</label><br />
+        <textarea id="message" name="message" rows="4" cols="50"></textarea
+        ><br /><br />
+        <input type="submit" value="Відправити" class="btn" />
+      </form>
+      <h3>Наші тури:</h3>
+      <table style="border: solid 1px">
+        <tr>
+          <th style="border: solid 1px">Місце</th>
+          <th style="border: solid 1px">Тривалість</th>
+          <th style="border: solid 1px">Ціна</th>
+        </tr>
+        <tr>
+          <td style="border: solid 1px">Париж, Франція</td>
+          <td style="border: solid 1px">7 днів</td>
+          <td style="border: solid 1px">$1000</td>
+        </tr>
+        <tr>
+          <td style="border: solid 1px">Рим, Італія</td>
+          <td style="border: solid 1px">5 днів</td>
+          <td style="border: solid 1px" style="border: solid 1px">$800</td>
+        </tr>
+        <tr>
+          <td style="border: solid 1px">Лондон, Велика Британія</td>
+          <td style="border: solid 1px">6 днів</td>
+          <td style="border: solid 1px">$900</td>
+        </tr>
+      </table>
+      <h3>Зображення:</h3>
+      <img src="img/paris.jpg" alt="Париж" />
+      <h3>Відео:</h3>
+      <p>
+        Дивіться відео про наші тури на нашому
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
+          >YouTube каналі</a
+        >.
+      </p>
+    </div>
+    <footer>
+      <p>Туристичний сайт &copy; 2024</p>
+    </footer>
+  </body>
+</html>
